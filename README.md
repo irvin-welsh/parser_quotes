@@ -54,6 +54,7 @@ Create .env file:
 EMAIL_USER=your@gmail.com
 EMAIL_PASS=your_app_password
 ```
+
 3: Set your schedule
 Modify in main.py:
 ```python
@@ -65,6 +66,7 @@ interval = dt.timedelta(hours=24)  # Change for different frequency
 ```python
 python main.py
 ```
+
 ## 🌈 Sample Output
 
 Email Content:
@@ -73,6 +75,7 @@ Email Content:
     ― Albert Einstein
 
 ## JSON Structure:
+
 ```json
 {
     "Quote text": {
@@ -83,19 +86,22 @@ Email Content:
 ```
 
 ## 💡 Pro Tips
-1: 🔒 Use App Passwords for Gmail
+
+1: 🔒 Use App Passwords for Gmail  
 2: 🌐 Change SMTP settings for different email providers:
 ```python
     # Outlook: 'smtp.office365.com', 587
     #Yahoo: 'smtp.mail.yahoo.com', 465
-```
-3: 📅 Want weekly quotes? Change hours=24 to days=7
-4: 💌 Add multiple recipients: msg['To'] = "email1@x.com, email2@y.com"
+```  
+
+3: 📅 Want weekly quotes? Change hours=24 to days=7  
+
+4: 💌 Add multiple recipients: msg['To'] = "email1@x.com, email2@y.com"  
 
 ## 🤝 Contributing
+
 Found a bug? Want to improve something?
 PRs are welcome! Just fork and submit your changes.
-
 
 Made with ❤️ and Python 🐍
 Happy quoting! ✉️💬
