@@ -93,9 +93,7 @@ Email Content:
     # Outlook: 'smtp.office365.com', 587
     #Yahoo: 'smtp.mail.yahoo.com', 465
 ```  
-
 3: 📅 Want weekly quotes? Change hours=24 to days=7  
-
 4: 💌 Add multiple recipients: msg['To'] = "email1@x.com, email2@y.com"  
 
 ## 🤝 Contributing
